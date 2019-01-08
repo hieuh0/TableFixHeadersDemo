@@ -15,7 +15,6 @@ public class MainActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         B b[] = new B[] {
                 new B(getString(R.string.simple_adapter), SimpleTable.class),
                 new B(getString(R.string.style_adapter), StyleTable.class),
